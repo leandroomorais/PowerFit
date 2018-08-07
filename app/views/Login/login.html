@@ -1,74 +1,30 @@
-#{extends 'main.html' /} #{set title: 'PowerFIT - Entrar' /}
+#{extends 'main.html' /} 
+#{set title: 'PowerFIT - Entrar' /}
+
 <meta charset="utf-8">
-
-<div id="fh5co-header" class="fh5co-cover" role="banner"
-	style="background-image: url(public/images/img_bg1.jpg)"
-	data-stellar-background-ratio="0.5">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center">
-				<div class="display-t">
-					<div class="display-tc animate-box" data-animate-effect="fadeIn">
-					<div class="animate-box">
-					<h2>Sistema PowerFIT</h2>
-					<form class="col-md-12">
-					<input type="text" placeholder="Usuário"><br>
-					<br>
-					<input type="password" placeholder="Senha"><br>
-					<br>
-					<button class="btn btn-primary">Entrar</button>
-					
-					
-					</form>	
-						
-					
-					</div>
-					</div>
-				</div>	
-			</div>
-		</div>
-	</div>
+<div>
+<span><img class="img-responsive"
+							src="@{'public/images/poweFit-login.png'}" alt=""></span>
 
 </div>
 
-
-<footer id="fh5co-footer" class="fh5co-bg"
-	style="background-image: url(public/images/img_bg_1.jpg);"
-	role="contentinfo">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row row-pb-md">
-			<div class="col-md-12 text-center">
-				<h3>PowerFIT.</h3>
-				<p>A PowerFIT Academias prioriza a qualidade dos seus serviços
-					fazendo com que o seu esforço vaila apena!</p>
-				<p>
-					<a class="btn btn-primary" href="#">Seja um dos nossos Alunos</a>
-				</p>
+<div id="fh5co-services" class="fh5co-bg-section">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+					<span><img class="img-responsive" src="@{'public/images/dumbbell.svg'}"
+							alt=""></span>
+						<h3>Entrar</h3>
+						<form action="">
+						<input class="form-control" type="text" placeholder="Usuário">
+						<input class="form-control" type="password" placeholder="Senha">
+						<a class="forgot"href="#">Esqueceu sua senha?</a><br>
+						<button class="btn btn-primary" type="submit">Entrar</button> 
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<div class="row copyright">
-			<div class="col-md-12 text-center">
-				<p>
-					<small class="block">&copy; PowerFIT, 2018.Todos os
-						Direitos Reservados.</small> <small class="block">Desenvolvido por
-						<a href="#" target="_blank">Leandro Morais</a>
-					</small>
-				</p>
-				<p>
-				<ul class="fh5co-social-icons">
-					<li><a href="#"><i class="icon-facebook"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-				</ul>
-			</div>
-		</div>
-
 	</div>
-</footer>
-
-
-<div class="gototop js-top">
-	<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-</div>
