@@ -1,0 +1,314 @@
+#{extends 'main.html' /} #{set title: 'Página Inicial' /}
+<meta charset="utf-8">
+<div class="fh5co-loader"></div>
+
+<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-right">
+						<ul class="fh5co-social">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<div id="fh5co-logo">
+							<a href="index.html">PowerFIT<span>.</span></a>
+						</div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li class="active"><a href="#">Início</a></li>
+							<li><a href="#">Conheça a PowerFIT</a></li>
+							<li><a href="#">Planos</a></li>
+							<li><a href="#">Galeria</a></li>
+							<li><a href="#">Contatos</a></li>
+							<li><a href="@{Login.login}">Entrar</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</nav>
+
+	<header id="fh5co-header" class="fh5co-cover" role="banner"
+		style="background-image: url(public/images/bg001.png);"
+		data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>MOTIVAÇÃO</h1>
+							<h2>
+								É o que você precisa para começar<a href="http://freehtml5.co/"></a>
+							</h2>
+							<p>
+								<a href="#" class="btn btn-primary popup-vimeo">Cadastre-se</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-services" class="fh5co-bg-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span><img class="img-responsive" src="@{'public/images/dumbbell.svg'}"
+							alt=""></span>
+						<h3>Musculação</h3>
+						<p>Musculação é a atividade que força os músculos de maneira
+							controlada buscando o aumento da força e do volume deles.</p>
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span><img class="img-responsive" src="@{'public/images/functional.svg'}"
+							alt=""></span>
+						<h3>Funcional</h3>
+						<p>“Toda vez que movimentamos nosso corpo precisamos de uma
+							ação integrada envolvendo pele, articulações, músculos, etc.</p>
+						
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span><img class="img-responsive"
+							src="@{'public/images/exercise.svg'}" alt=""></span>
+						<h3>Aeróbica</h3>
+						<p>Aeróbica ou Ginástica Aeróbica, é todo tipo de atividade
+							física que através de movimentos rápidos e ritmados que queimam
+							calorias.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-trainer">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Profissionais Experientes</h2>
+					<p>Selecionamos a melhor equipe para cuidar do seu corpo, saúde
+						e bem estar.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-4 animate-box">
+					<div class="trainer">
+						<a href="#"><img class="img-responsive"
+							src="@{'public/images/treinador001.jpg'}" alt="trainer"></a>
+						<div class="title">
+							<h3>
+								<a href="#">Angel Adams</a>
+							</h3>
+							<span>Educador Físico</span>
+						</div>
+						<div class="desc text-center">
+							<ul class="fh5co-social-icons">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 animate-box">
+					<div class="trainer">
+						<a href="#"><img class="img-responsive"
+							src="@{'public/images/treinador2.jpg'}" alt="trainer"></a>
+						<div class="title">
+							<h3>
+								<a href="#">Arnold Smith</a>
+							</h3>
+							<span>Body Building</span>
+						</div>
+						<div class="desc text-center">
+							<ul class="fh5co-social-icons">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 animate-box">
+					<div class="trainer">
+						<a href="#"><img class="img-responsive"
+							src="@{'public/images/treinador3.jpg'}" alt="trainer"></a>
+						<div class="title">
+							<h3>
+								<a href="#">Rachel Seely</a>
+							</h3>
+							<span>Educadora Física</span>
+						</div>
+						<div class="desc text-center">
+							<ul class="fh5co-social-icons">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-pricing">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Planos e preços</h2>
+					<p>As melhores condições para você!</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="pricing">
+					<div class="col-md-3 animate-box">
+						<div class="price-box">
+							<h2 class="pricing-plan">Musculação</h2>
+							<div class="price">
+								<sup class="currency">R$</sup>50<small>/mês</small>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 animate-box">
+						<div class="price-box">
+							<h2 class="pricing-plan">Funcional</h2>
+							<div class="price">
+								<sup class="currency">R$</sup>40<small>/mês</small>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 animate-box">
+						<div class="price-box">
+							<h2 class="pricing-plan">Aeróbica</h2>
+							<div class="price">
+								<sup class="currency">R$</sup>40<small>/mês</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="fh5co-testimonial" class="fh5co-bg-section">
+				<div class="container">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>Clientes Satisfeitos</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="row animate-box">
+								<div class="owl-carousel owl-carousel-fullwidth">
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="@{'public/images/user01.jpg'}" alt="user">
+											</figure>
+											<span>João Almeida, via <a href="#" class="twitter">Instagram</a></span>
+											<blockquote>
+												<p>&ldquo;Estar na PowerFIT foi a melhor opção que fiz.
+													Uma equipe de profissionais experientes que fazem valer a
+													pena todo esforço. #PowerFIT.&rdquo;</p>
+											</blockquote>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="@{'public/images/user01.jpg'}" alt="user">
+											</figure>
+											<span>João Almeida, via <a href="#" class="twitter">Instagram</a></span>
+											<blockquote>
+												<p>&ldquo;Estar na PowerFIT foi a melhor opção que fiz.
+													Uma equipe de profissionais experientes que fazem valer a
+													pena todo esforço. #PowerFIT.&rdquo;</p>
+											</blockquote>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="@{'public/images/user01.jpg'}" alt="user">
+											</figure>
+											<span>João Almeida, via <a href="#" class="twitter">Instagram</a></span>
+											<blockquote>
+												<p>&ldquo;Estar na PowerFIT foi a melhor opção que fiz.
+													Uma equipe de profissionais experientes que fazem valer a
+													pena todo esforço. #PowerFIT.&rdquo;</p>
+											</blockquote>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer id="fh5co-footer" class="fh5co-bg"
+				style="background-image: url(public/images/img_bg_1.jpg);"
+				role="contentinfo">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row row-pb-md">
+						<div class="col-md-12 text-center">
+							<h3>PowerFIT.</h3>
+							<p>A PowerFIT Academias prioriza a qualidade dos seus
+								serviços fazendo com que o seu esforço vaila apena!</p>
+							<p>
+								<a class="btn btn-primary" href="#">Seja um dos nossos
+									Alunos</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="row copyright">
+						<div class="col-md-12 text-center">
+							<p>
+								<small class="block">&copy; PowerFIT, 2018.Todos os
+									Direitos Reservados.</small> <small class="block">Desenvolvido
+									por <a href="#" target="_blank">Leandro Morais</a>
+								</small>
+							</p>
+							<p>
+							<ul class="fh5co-social-icons">
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-instagram"></i></a></li>
+							</ul>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</footer>
+		</div>
+
+		<div class="gototop js-top">
+			<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+		</div>
