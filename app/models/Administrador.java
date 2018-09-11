@@ -8,7 +8,7 @@ import play.db.jpa.Model;
 public class Administrador extends Model {
 	
 	public String nome;
-	public String usuário;
+	public String username;
 	public String senha;
 
 }

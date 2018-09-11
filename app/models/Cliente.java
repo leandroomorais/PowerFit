@@ -11,7 +11,7 @@ public class Cliente extends Model {
 	public int idade;
 	public int peso;
 	public int altura;
-	public String usuario;
+	public String username;
 	public String senha;
 	
 }

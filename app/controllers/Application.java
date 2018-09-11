@@ -13,8 +13,16 @@ public class Application extends Controller {
         render();
     }
     
-    public static void planos() {
-    	render();
+    public static void conheca() {
+    	renderTemplate("Application/conheca.html");
     }
-
+    
+    public static void planos() {
+    	renderTemplate("Application/planos.html");
+    }
+    
+    
+    public static void contatos() {
+    	renderTemplate("Application/contatos.html");
+    }
 }
